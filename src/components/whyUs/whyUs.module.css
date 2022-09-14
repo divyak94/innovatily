@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../../assets/fonts/Poppins-Bold.ttf') format("truetype")
+}
+.mainContainer{
+    height: 100%;
+    width:90%;
+    background-color:white;
+    margin:auto;
+    font-weight:500;
+    position: relative;
+    z-index:999;
+
+}
+.mainSubContainer{
+    width:95%;
+    margin:auto;
+    padding-top:1.5rem;
+    padding-bottom:2rem;
+}
+.heading{
+    margin-bottom:0;
+    color:#365dff;
+    font-weight:600;
+    font-family:"poppins-bold", sans-serif;
+    padding-bottom:1.5rem;
+    font-size:35px;
+    opacity:1
+   
+}
+h2{
+    margin:0;
+    padding:0;
+    
+    max-width:100%;
+    height:auto;
+    font-size:26px;
+    padding-bottom:1.5rem;
+    
+}
+.companiesContainer{
+    height:30%;;
+    padding-bottom:1.5rem
+}
+.illustrations{
+    width:95%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between
+
+}
+.illustrationSingle{
+    width:18%;
+    height:auto;
+ 
+    /* background-color:blue */
+}
+.illustrationImage{
+    /* -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 0px 5px 6px #ccc; */
+    box-shadow:        6px 6px 10px #00000029;
+
+}
+.illustrationText{
+    display:flex;
+    justify-content:center;
+    padding-top:0.8rem;
+    font-size:11px;
+}

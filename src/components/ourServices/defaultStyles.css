@@ -1,0 +1,15 @@
+.ant-collapse-header{
+    height:6rem !important;
+    align-items:center !important;
+    padding-left:3rem  !important;
+    font-size:28px
+
+}
+
+/* 
+.ant-collapse{
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+.ant-collapse-content{
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+} */

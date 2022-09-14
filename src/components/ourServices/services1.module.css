@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../../assets/fonts/Poppins-Light.ttf') format("truetype")
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../../assets/fonts/Poppins-Regular.ttf') format("truetype")
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../../assets/fonts/Poppins-Bold.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../../assets/fonts/Poppins-SemiBold.ttf') format("truetype")
+}
+
+.servicesMain{
+    height:100%;
+    width:100%;
+    font-family: "poppins-light", sans-serif;
+    position:relative
+
+    /* padding-top:2rem */
+}
+.subMain{
+    width:90%;
+    margin:auto;
+    /* margin-top:2rem; */
+    padding-top:2rem;
+    padding-bottom:4rem
+}
+.Servicesh1{
+    font-family: "poppins-semibold", sans-serif;
+    font-size: 35px;
+    padding-top:2rem;
+    font-weight:600;
+    color:#365dff;
+}
+.Servicesh2{
+    font-family: "poppins-regular", sans-serif;
+    padding-top:0.75rem;
+    font-size:18px;
+    font-weight:300
+}
+.Servicesh3{
+    font-family: "poppins-semibold", sans-serif;
+    font-size:18px;
+    padding-bottom:2rem;
+
+}
+
+
+.panelSize{
+    font-size:22px;
+    /* height:7rem; */
+    font-family: "poppins-semibold", sans-serif;
+
+}
+

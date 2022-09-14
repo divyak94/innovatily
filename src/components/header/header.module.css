@@ -1,0 +1,44 @@
+ 
+.headerStyles{
+    background-color: #001982;
+    height: 5rem !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+.headerStyles2{
+    background-color: white;
+    height: 5rem !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+.headerLogo{
+    width: 25%;
+    margin-left: 2rem;
+}
+.headerMenuOptions{
+    width: 40%;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content:space-between;
+   font-family: "poppins-bold", sans-serif;
+   font-size:18px;
+   color: #FFFFFF;
+}
+.headerLinks{
+  color: #FFFFFF;
+  text-decoration:none
+}
+.headerLinks2{
+    color: black;
+    text-decoration:none
+  }

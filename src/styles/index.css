@@ -1,0 +1,138 @@
+/* 
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../assets/fonts/Poppins-Bold.ttf') format("truetype")
+}
+
+body{
+    margin:0 !important
+}
+.mainContainer{
+    scroll-behavior: smooth;
+    overflow:hidden;
+}
+ 
+.mainContainerIllustrated{
+    height:100%;
+    max-width:100%;
+    background:#001982;
+    display:flex;
+    align-items:center;
+    padding-left:10rem;
+    padding-top:5rem;
+    padding: 5rem 0rem 5rem 13rem;
+    /* position:relative; */
+    
+/*  
+}
+.secondContainer{
+    height:100%;
+    /* overflow-y:scroll */
+    /* position: relative;
+}
+.heroImage{
+    width:100%;
+    height:auto;
+    animation: mainFadeIn 2s steps(10, end)
+}
+.active {
+    background-color: rgba(34,34,34,0.8);
+  }
+.textAnimation{
+    padding-left:7rem;
+    height: auto;
+    font-family:"poppins-bold", sans-serif;
+    font-size:4vw;
+    color:#FFFFFF;
+}
+
+.first, .second{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10em;
+    animation: mainFadeIn 2s steps(20, end)
+}
+.third{ */
+    /* animation: type 4s forwards */
+    /* white-space: nowrap;
+    overflow: hidden;
+    width: 12em;
+    animation-delay:15s;
+    animation: type 2s steps(30, end)
+}
+
+
+@keyframes mainBlock {
+    0% {
+      width: 0%;
+      left: 0;
+  
+    }
+    50% {
+      width: 100%;
+      left: 0;
+  
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+  
+  @keyframes secBlock {
+    0% {
+      width: 0%;
+      left: 0;
+  
+    }
+    50% {
+      width: 100%;
+      left: 0;
+  
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+  
+  @keyframes mainFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+
+@keyframes example {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+  }
+
+@keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+  @keyframes animate { */
+    /* animation-timing-function: ease-in */
+    /* 0% {
+        width: 0px;
+        height: 0px;
+    }}
+
+    */
+/* .first{
+    transform: translateY(0);
+   animation: transform 1.8s cubic-bezier(.075,.82,.165,1),opacity 1.8s cubic-bezier(.075,.82,.165,1);
+} */
+/* P{
+   display: table-row !important
+}  */

@@ -1,0 +1,63 @@
+/* .mainContainer{
+    width:100%;
+    background-color:white
+
+}
+.designImageMain{
+   
+    display:flex;
+    justify-content:center;
+   height: 50%;
+   padding-top:1rem
+} 
+.designImage{
+    max-width:80%;
+    height:auto
+}
+.designContentMain{
+    height: 50%;
+    padding-left:3rem;
+
+    padding-bottom:3rem
+}
+h1{
+    color: black;
+    font-weight:600;
+}
+h2{
+    color: black
+}
+p{
+
+    font-weight:200
+} */
+p{
+    font-size:20px;
+    font-family: "poppins-regular", sans-serif;
+    font-weight:200
+} 
+h2{
+    font-size:24px;
+    font-family: "poppins-regular", sans-serif;
+    color: black;
+    padding-bottom:1rem
+}
+.designImageMain{
+    display:flex;
+    justify-content:center;
+
+} 
+
+.designImage{
+    max-width:60%;
+    margin:auto;
+    height:350px
+}
+.designContentMain{
+    width:95%;
+    margin:auto;
+    padding-top:1rem
+    /* height: 50%;
+    padding-left:3rem;
+    padding-bottom:3rem */
+}
