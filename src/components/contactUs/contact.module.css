@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../../assets/fonts/Poppins-Regular.ttf') format("truetype")
+}
+.mainContainer{
+    width: 100%;
+    background-image: url('../../assets/images/Asset1.svg');
+    background-repeat: no-repeat;
+    background-position:  bottom left;
+    background-size: 174px 490px;
+    background-color: #F3F3F3;
+}
+.mainSubContainer{
+    max-width: 85%;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 4rem !important;
+}
+.mainSubLeftContainer{
+    max-width: 30%;
+ 
+
+}
+.leftp{
+    color:#365dff !important;
+    font-family:"poppins-regular", sans-serif;
+    font-size: 3vw;
+    /* padding-top: 2rem; */
+    padding-left:3rem;
+    font-weight: 600 !important;
+   
+
+}
+.mainSubRightContainer{
+    width: 70%;
+    /* padding-top: 4rem !important; */
+}
+.Form{
+    max-width: 95%;
+    margin: auto;
+    height: auto;
+    
+}
+
+.contactForm1{    
+    display: flex;  
+    /* width: 80%; */
+    justify-content: space-evenly; 
+}
+.contactForm1 input{
+    height: 7vh !important;
+    width: 20vw;
+   align-self: flex-start;
+   padding: 2rem 2rem 2rem 2rem;
+   font-family:"poppins-regular", sans-serif;
+   font-size: 1.1vw;
+   color: darkgray
+  
+}
+.contactForm2 input{
+    height: 7vh !important;
+    width: 20vw;
+   align-self: flex-start;
+   padding: 2rem 2rem 2rem 2rem;
+   font-family:"poppins-regular", sans-serif;
+   font-size: 1.1vw;
+   color: darkgray
+  
+}
+
+.contactForm2{
+    display: flex;  
+    /* width: 72%; */
+    justify-content: space-evenly; 
+   
+}
+.contactForm3{
+    max-width: 45vw;
+    margin: auto;
+ 
+   
+}
+.contactForm3 textarea{ 
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+    font-family:"poppins-regular", sans-serif;
+    font-size: 1.1vw;
+    color: darkgray
+  
+   
+}
+label{
+    color: #365dff  !important;
+    font-size: 1.4vw !important;
+}
+
+/* input{
+    height: 7vh !important;
+    width: 3vw;
+   align-self: flex-start;
+  
+} */
+.btn2Cls{
+    display: flex;
+    justify-content: center; 
+
+}
+.btn2{
+    height: 6vh;
+    width: 45vw;
+    outline: 3px solid #365dff;
+    margin-bottom: 2rem ;
+    color: #365dff;
+    font-size: 22px;
+
+    
+}

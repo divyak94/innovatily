@@ -4,9 +4,9 @@
     height: 5rem !important;
     display: flex;
     justify-content: space-between;
-    width: 100% !important;
+    max-width: 100% ;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top:0;
     z-index: 1000;
 }
@@ -15,7 +15,7 @@
     height: 5rem !important;
     display: flex;
     justify-content: space-between;
-    width: 100% !important;
+    max-width: 100% !important;
     align-items: center;
     position: sticky;
     top:0;
@@ -23,11 +23,11 @@
 }
 .headerLogo{
     width: 25%;
-    margin-left: 2rem;
+    padding-left: 2rem;
 }
 .headerMenuOptions{
     width: 40%;
-    margin-right: 2.5rem;
+    padding-right: 2.5rem;
     display: flex;
     justify-content:space-between;
    font-family: "poppins-bold", sans-serif;

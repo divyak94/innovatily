@@ -3,12 +3,16 @@ import {useState,  useEffect} from 'react'
 import * as mainStyles from './index.module.css'
 import logoWhite from '../assets/images/whiteLogo.svg'
 import pattern from '../assets/images/pattern.svg'
+import patternhero from '../assets/images/patternhero.svg'
 import hero from '../assets/images/hero.svg'
 import Layout from '../components/layout'
 import Services1 from "../components/ourServices/services1"
 import Services2 from "../components/ourServices/services2"
 import WhyUs from "../components/whyUs"
 import OurWork from "../components/ourWork"
+import Awards from "../components/awards/awards"
+import Contact from "../components/contactUs"
+
 
 
 const IndexPage = (props) => {
@@ -17,13 +21,11 @@ const IndexPage = (props) => {
 
   console.log(props)
 
-  // const pull_data = (data) => {
-  //   console.log(data); //getting props from services1
-  //   setServicesView(data)
-  // }
 
 
-
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <Layout pageTitle="Home Page">
       <div className={mainStyles.homePageMainContainer}>
@@ -40,11 +42,14 @@ const IndexPage = (props) => {
                   </div>
                   <div className={mainStyles.heroPageSubContent1}>
                       <div className={mainStyles.heroImage}><img src={hero} alt="Main"/></div>
+                      
                   </div> 
+                 
 
            
               </div>
-                <div className={mainStyles.pattern}><img src={pattern} alt="pattern"/></div>
+              {/* <div className={mainStyles.pattern}><img src={patternhero} alt="pattern"/></div> */}
+               
           </div>
 
 
@@ -55,6 +60,8 @@ const IndexPage = (props) => {
                 <Services1  />
                 <WhyUs />
                 <OurWork/>
+                <Awards/>
+                <Contact/>
             
                
 

@@ -13,9 +13,9 @@ function Development() {
 
             <div className={styles.designContentMain}>
                 <div className={styles.designContent}>
-                    <h1>Development</h1>
-                    <h2>Our design philosophy is centered around delivering experiences that <strong>SIMPLY WORK.</strong> </h2>
-                    <p>This philosophy translates to delivering application designs that are centered around your users, designed by understanding and empathizing with your users through a well defined and structured process.</p>
+                    <div className={styles.h1}>Development</div>
+                    <div className={styles.h2} >Our design philosophy is centered around delivering experiences that <strong>SIMPLY WORK.</strong> </div >
+                    <p className={styles.p1}>This philosophy translates to delivering application designs that are centered around your users, designed by understanding and empathizing with your users through a well defined and structured process.</p>
 
                 </div>
 

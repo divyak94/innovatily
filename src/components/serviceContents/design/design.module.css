@@ -1,36 +1,3 @@
-/* .mainContainer{
-    width:100%;
-    background-color:white
-
-}
-.designImageMain{
-
-    display:flex;
-    justify-content:center;
-   height: 50%;
-   padding-top:1rem
-} 
-.designImage{
-    max-width:80%;
-    height:auto
-}
-.designContentMain{
-    height: 50%;
-    padding-left:3rem;
-
-    padding-bottom:3rem
-}
-h1{
-    color: black;
-    font-weight:600;
-}
-h2{
-    color: black
-}
-p{
- 
-    font-weight:200
-} */
 @font-face {
     font-family: 'poppins-light';
     src: url('../../../assets/fonts/Poppins-Light.ttf') format("truetype")
@@ -48,35 +15,35 @@ p{
     font-family: 'poppins-semibold';
     src: url('../../../assets/fonts/Poppins-SemiBold.ttf') format("truetype")
 }
+.h1{
+    font-size:3vh !important;
+    padding-bottom: 1rem;
+}
 
-p{
-    font-size:20px;
+.p1{
+    font-size:2vh;
     font-family: "poppins-regular", sans-serif;
     font-weight:200
 } 
-h2{
-    font-size:24px;
+.h2{
+    font-size:25px;
     font-family: "poppins-regular", sans-serif;
-    color: black;
+    /* color: black; */
     padding-bottom:1rem
 }
 .designImageMain{
     display:flex;
-    justify-content:center;
-   /* height: 50%; */
-   /* padding-top:1rem */
+    justify-content:center; 
 } 
 
 .designImage{
     max-width:60%;
     margin:auto;
-    height:350px
+    height:250px
 }
 .designContentMain{
     width:95%;
     margin:auto;
     padding-top:1rem
-    /* height: 50%;
-    padding-left:3rem;
-    padding-bottom:3rem */
+    
 }

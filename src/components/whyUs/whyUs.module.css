@@ -2,31 +2,50 @@
     font-family: 'poppins-bold';
     src: url('../../assets/fonts/Poppins-Bold.ttf') format("truetype")
 }
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../../assets/fonts/Poppins-Regular.ttf') format("truetype")
+}
 .mainContainer{
     height: 100%;
-    width:90%;
+    width:100%;
     background-color:white;
     margin:auto;
     font-weight:500;
     position: relative;
     z-index:999;
+    background-image: url('../../assets/images/Asset1.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100px 500px;
+    background-color: #F3F3F3;
 
 }
 .mainSubContainer{
-    width:95%;
+    width:90%;
     margin:auto;
     padding-top:1.5rem;
     padding-bottom:2rem;
+    
 }
 .heading{
     margin-bottom:0;
-    color:#365dff;
+    color: #365dff;
     font-weight:600;
     font-family:"poppins-bold", sans-serif;
     padding-bottom:1.5rem;
-    font-size:35px;
-    opacity:1
-   
+    font-size:120px;
+    opacity:1;
+}
+
+.pHeading{
+    line-height: 1 !important;
+    font-size: 31px;
+    margin:10px;
+    font-family:"poppins-regular", sans-serif;
+}
+.companiesContainer1{
+    display: flex;
 }
 h2{
     margin:0;
@@ -39,26 +58,42 @@ h2{
     
 }
 .companiesContainer{
-    height:30%;;
-    padding-bottom:1.5rem
+    height:40%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding-bottom:5rem;
+    padding-top:5rem;
+   
+}
+.companiesSubContainer{
+    display: flex;
+    animation: slidein 20s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
 }
 .illustrations{
     width:95%;
     margin:auto;
     display:flex;
-    justify-content:space-between
-
+    justify-content:space-between;
+  
 }
 .illustrationSingle{
-    width:18%;
+    width:20%;
     height:auto;
- 
-    /* background-color:blue */
+    z-index: 1000;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    box-shadow:6px 6px 10px #00000029;   
+
 }
 .illustrationImage{
-    /* -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 0px 5px 6px #ccc; */
-    box-shadow:        6px 6px 10px #00000029;
+    height:40px !important;
+    margin: auto;
+     display: flex;
+
 
 }
 .illustrationText{
@@ -67,3 +102,29 @@ h2{
     padding-top:0.8rem;
     font-size:11px;
 }
+.imageDiv{
+    max-width:11%;
+    height: auto;
+    padding-right:5rem;
+    
+}
+@keyframes slidein {
+
+    0% {
+        transform: translateX(100%);
+        /* left: 10%; */
+      }
+   
+      100% {
+        transform: translateX(calc(-250px-70px));
+      }
+  }
+
+  @keyframes textmove {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 50%;
+    }
+  }
