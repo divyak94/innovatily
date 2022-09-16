@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.75 319.96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #232323;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Group_58" data-name="Group 58">
+      <g id="Group_57" data-name="Group 57">
+        <g id="Group_51" data-name="Group 51">
+          <path id="Path_856" data-name="Path 856" class="cls-1" d="M195.68,218.23l-38.73,26.09-37.72-25.36,38.76-26.12,37.69,25.39Z"/>
+        </g>
+        <g id="Group_52" data-name="Group 52">
+          <path id="Path_857" data-name="Path 857" class="cls-1" d="M42.12,269.34v49.42L2.41,297.64l-1.28-.68,40.99-27.61Z"/>
+          <path id="Path_858" data-name="Path 858" class="cls-1" d="M44.68,319.95v-50.78l49.6-33.41,37.74,25.36-87.34,58.83Z"/>
+          <path id="Path_859" data-name="Path 859" class="cls-1" d="M0,296.18v.18l1.13,.6,1.28,.68,39.71-26.75v-3.08L0,296.18Z"/>
+        </g>
+        <g id="Group_53" data-name="Group 53">
+          <path id="Path_860" data-name="Path 860" class="cls-1" d="M0,23.88l42.12,28.37V318.77L2.41,297.64l-1.28-.68-1.13-.6V23.88Z"/>
+          <path id="Path_861" data-name="Path 861" class="cls-1" d="M43.4,.62V50.03l-1.28-.86L2.41,22.42,42.12,1.29h0s1.28-.67,1.28-.67Z"/>
+          <path id="Path_862" data-name="Path 862" class="cls-1" d="M44.53,.02l-1.13,.6-1.28,.68V49.17l2.56,1.72V.12l-.15-.1Z"/>
+        </g>
+        <g id="Group_54" data-name="Group 54">
+          <path id="Path_863" data-name="Path 863" class="cls-1" d="M444.08,269.18v50.77L44.68,50.9l-2.56-1.72L2.41,22.42,42.12,1.29h0s1.28-.68,1.28-.68L44.53,.02l.15,.1L444.08,269.18Z"/>
+          <path id="Path_864" data-name="Path 864" class="cls-1" d="M487.62,296.98l-1.27,.68-39.71,21.12v-49.41l40.98,27.61Z"/>
+          <path id="Path_865" data-name="Path 865" class="cls-1" d="M446.64,267.82v3.08l39.71,26.75,1.27-.68,1.13-.6v-.19l-42.11-28.36Z"/>
+        </g>
+        <g id="Group_55" data-name="Group 55">
+          <path id="Path_866" data-name="Path 866" class="cls-1" d="M486.35,22.4l-39.71,26.75-1.28,.86V.6l1.28,.68,39.71,21.12Z"/>
+          <path id="Path_867" data-name="Path 867" class="cls-1" d="M488.75,23.87V296.38l-1.13,.6-1.27,.68-39.71,21.12V52.24l42.11-28.37Z"/>
+          <path id="Path_868" data-name="Path 868" class="cls-1" d="M445.36,.6l-1.13-.6-.15,.1V50.87l1.28-.86,1.28-.86V1.28l-1.28-.68Z"/>
+        </g>
+        <g id="Group_56" data-name="Group 56">
+          <path id="Path_869" data-name="Path 869" class="cls-1" d="M486.35,22.4l-39.71,26.75-1.28,.86-1.28,.86-114.97,77.45-37.7-25.38L444.07,.1l.15-.1,1.13,.6,1.28,.68,39.71,21.11Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

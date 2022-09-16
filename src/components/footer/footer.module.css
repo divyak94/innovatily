@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../../assets/fonts/Poppins-Light.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../../assets/fonts/Poppins-Regular.ttf') format("truetype")
+}
+
+.footer{
+    border-bottom: solid 3px #707070;
+    opacity: 1; 
+}
+
+.mainFooter{
+    font-family: "poppins-light", sans-serif;
+    height: 100%;
+    width:100%;
+    background-color: #191919;
+    background-image: url('../../assets/images/footerIcon.svg');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: bottom left;
+    padding-top:3rem;
+    position:sticky;
+    z-index:1000; 
+    /* bottom:0 */
+
+}
+
+.footerMainContent{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.footerContentLink, .footerContentAddress{
+    color: #FFFFFF;
+    font-family: "poppins-regular", sans-serif;
+    letter-spacing: 0.34px;
+    font-weight:500;
+
+}
+.footerContentAddress2{
+    color: #B8B8B8;
+    font-family: "poppins-regular", sans-serif;
+    margin:0 !important;
+    font-size:17px;
+    letter-spacing: 0.34px;
+    font-weight:500;
+    padding:0 !important;
+
+}
+
+
+.footerLinks{
+    font-family: "poppins-light", sans-serif;
+    color:#B8B8B8;
+    text-decoration:none;
+    font-size:19px;
+    opacity:1;
+}
+
+.footerContent{
+    display: inline-grid;
+}
+
+.contactus{
+
+    font-family: "poppins-regular", sans-serif;
+    letter-spacing: 0.34px;
+    font-size:16px;
+    padding-top:1rem;  
+
+}
+.footerContentContact{
+    margin:0;
+    padding:0 !important;
+    color: #FFFFFF;
+    font-family: "poppins-regular", sans-serif;
+}
+.socialMedia{
+    display: flex;
+    justify-content:center;
+    height:100px;
+    align-items:end;
+}
+
+.facebook{
+    height:32px;
+    width:18px;
+    margin-right:1.5rem
+  
+}
+.instagram{
+    height:32px;
+    width:30px;
+    margin-right:1.5rem
+  
+}
+.twitter{
+    height:32px;
+    width:30px;
+    margin-right:1.5rem
+  
+}
+.linkedin{
+    height:32px;
+    width:30px;
+    margin-right:1.5rem
+  
+}
+.rights{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #B8B8B8;
+    font-family: "poppins-light", sans-serif;
+    padding-top:1.8rem
+}

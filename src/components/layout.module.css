@@ -1,0 +1,18 @@
+
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../assets/fonts/Poppins-Bold.ttf') format("truetype")
+}
+.container {
+
+    font-family: "poppins-bold", sans-serif;
+    height:100%;
+    width:100%;
+    
+  }
+
+  .headerLinks{
+    color: #FFFFFF;
+    text-decoration:none
+  }

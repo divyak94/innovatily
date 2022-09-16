@@ -1,0 +1,91 @@
+body{
+    margin:0 !important
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../assets/fonts/Poppins-Bold.ttf') format("truetype")
+}
+@font-face {
+    font-family: 'coco-bold';
+    src: url('../assets/fonts/Coco-Sharp-Extrabold-trial.ttf') format("truetype")
+}
+.homePageMainContainer{
+    width:100%;
+    height:50%;
+    background:#FFFFFF;
+   
+
+    font-size:130px;
+}
+.mainContainer1{
+    
+    width:100%;
+    height:100%;
+ 
+}
+.scrollSlideClass{
+
+
+}
+.mainContainer1{
+    display:flex;
+    align-items:center;
+    background-color:white;
+    height:100vh;
+
+}
+.heroPageContent1{
+  
+    width:100%;
+    display:flex; 
+    background-image: url("../assets/images/patternhero.svg");
+    background-position: bottom;
+    height: 100vh;
+
+    background-repeat: no-repeat; 
+    padding-top:12rem !important;
+    position:fixed;
+
+   
+}
+.heroPageSubContent1{
+    width:50%;
+}
+.heroImage{
+    max-width:80%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    display:flex;
+    justify-content:center
+}
+.heroPageSubContent2{
+    width:50%;
+    font-family:"coco-bold", sans-serif;
+    color:black;
+    max-width: 100%;
+    height:auto;
+    /* margin:auto; */
+    font-size: 6vw;
+    line-height:1;
+
+
+}
+.third{
+
+}
+.stop{
+    width:30px;
+    height:30px;
+    color:#365dff;
+}
+.first, .second, .fourth, .third{
+    display:flex; 
+    justify-content:center
+}
+.mainContainer2{
+    background-color:white;
+    position:relative;
+    z-index:999;
+
+}
